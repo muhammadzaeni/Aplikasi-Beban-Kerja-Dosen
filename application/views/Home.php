@@ -17,7 +17,7 @@
                     </div>';
                 }
                 ?>
-                <img src="<?= base_url()?>assets/images/login2.png" alt="">
+                <img src="<?= base_url()?>assets/images/login2.png" alt="" class="img-fluid" >
                 </div>
             </div>
     </div>

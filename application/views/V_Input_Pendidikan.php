@@ -42,7 +42,7 @@
                  <div class=" form-group row " >
                     <label for="nama" class="col-md-3 col-form-label "> Masa Penugasan </label>
                     <div class="col-md-8" >
-                    <input type="text" class="form-control" require name="nama_dekan" placeholder="Masa Penugasan" onchange="tampilkan()" >
+                    <input type="text" class="form-control" require name="masapenugasan" placeholder="Masa Penugasan" onchange="tampilkan()" >
                     </div>
                 </div>
                 <div class="form-group row">
@@ -78,7 +78,7 @@
     <div class="container-fluid">
         <div class="row bg-title">
             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                <h4 class="page-title"> Input Kinerja Pengabdian </h4> 
+                <h4 class="page-title"> Input Kinerja Pendidikan </h4> 
             </div>
                 
         </div>

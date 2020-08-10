@@ -28,9 +28,14 @@
                 <div class=" form-group row " >
                     <label for="nama" class="col-md-3 col-form-label "> Tanggal Lahir </label>
                         <div class="col-md-8" >
-                       <Input type="date" class="form-control" min="1960-12-30" max="1993-12-12"/>
-                        </div>
-                       
+                       <Input type="date" class="form-control" name=" date" min="1960-12-30" max="1993-12-12"/>
+                        </div>        
+                </div>
+                <div class=" form-group row " >
+                    <label for="nama" class="col-md-3 col-form-label "> Tempat Lahir </label>
+                        <div class="col-md-8" >
+                       <Input type="text" class="form-control" name="tempatlahir"/>
+                        </div>        
                 </div>
                 <div class=" form-group row " >
                 <label for="nama" class="col-md-3 col-form-label "> Nama Perguruan Tinggi </label>
@@ -124,20 +129,23 @@
                 </div>
                 <div class=" form-group row " >
                     <label for="nama" class="col-md-3 col-form-label "> Jabatan Fungsional </label>
-                    <div class="col-md-8" >
+                    <div class="col-md-4" >
                     <input type="text" class="form-control" require name="jbtfungsi" placeholder="Jabatan Fungsional" onchange="tampilkan()" >
+                    </div>
+                    <div class="col-md-4" >
+                    <input type="text" class="form-control" require name="golongan" placeholder="Golongan" onchange="tampilkan()" >
                     </div>
                 </div>
                 <div class=" form-group row " >
                     <label for="nama" class="col-md-3 col-form-label "> Bidang Ilmu </label>
                     <div class="col-md-8" >
-                    <input type="text" class="form-control" require name="nama_ketua_prodi" placeholder="Bidang ILmu" onchange="tampilkan()" >
+                    <input type="text" class="form-control" require name="ilmu" placeholder="Bidang ILmu" onchange="tampilkan()" >
                     </div>
                 </div>
             </form>
             <div>
-            <button type="reset" class="btn btn-warning"> Reset</button>
-        <button type="close" class="btn btn-secondary" > Close </button>
-        <button type="submit" class="btn btn-success"> Save </button>
+            <button type="reset" class=" btn-danger"> Reset</button>
+        <button type="close" class=" btn-warning" > Close </button>
+        <button type="submit" class=" btn-success"> Save </button>
       </div>
         </div>

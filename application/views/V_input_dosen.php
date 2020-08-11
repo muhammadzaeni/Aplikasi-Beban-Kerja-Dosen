@@ -56,27 +56,23 @@
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label  class="col-md-3 col-form-label"> Jenis Perguruan Tinggi </label>
+                    <label  class="col-md-3 col-form-label"> Jenis Jabatan </label>
                         <div class="col-md-8">
                             <select class="form-control" required name="jenis_perguruan" onchange="tampilkan()">
-                                <option value=""  class="form-control">-- Jenis perguruan Tinggi --</option> 
-                                <option value="UNIVERSITAS"> Univeristas </option>
-                                <option value="INSTITUT"> Institut </option>
-                                <option value="POLITEKNIK"> Politeknik </option>
-                                <option value="AKADEMI"> Akademi </option>
-                                <option value="PTN"> PTN </option>
-                                <option value="PTS"> PTS </option>
-                                <option value="PTK"> PTK </option>
+                                <option value=""  class="form-control">-- Jenis Jabatan --</option> 
+                                <option value="Dekan"> Dekan </option>
+                                <option value="Wakil Dekan"> Wakil Dekan </option>
+                                <option value="Ketua Prodi "> Ketua Prodi </option>
+                                <option value="Sekretaris Prodi"> Sekretaris Prodi </option>
+                                <option value="Koordinator Labolatorium"> Koordinator Labolatorium </option>
+                                <option value="Koordinator Kerja Praktek"> Koordinator Kerja Praktek </option>
+                                <option value="Koordinator Tugas Akhir"> Koordinator Tugas Akhir </option>
+                                <option value="Ketua Lppm "> Ketua Lppm </option>
                                 
                             </select>
                          </div>
                  </div>
-                 <div class=" form-group row " >
-                    <label for="nama" class="col-md-3 col-form-label "> Nama Rektor </label>
-                    <div class="col-md-8" >
-                    <input type="text" class="form-control" require name="nama_rektor" placeholder="Nama Rektor" onchange="tampilkan()" >
-                    </div>
-                </div>
+                
                 <div class="form-group row">
                     <label  class="col-md-3 col-form-label"> Nama Fakultas </label>
                         <div class="col-md-8">
@@ -86,12 +82,6 @@
                             </select>
                          </div>
                  </div>
-                 <div class=" form-group row " >
-                    <label for="nama" class="col-md-3 col-form-label "> Nama Dekan</label>
-                    <div class="col-md-8" >
-                    <input type="text" class="form-control" require name="nama_dekan" placeholder="Nama Dekan" onchange="tampilkan()" >
-                    </div>
-                </div>
                 <div class="form-group row">
                     <label  class="col-md-3 col-form-label"> Nama Prodi </label>
                         <div class="col-md-8">
@@ -103,12 +93,6 @@
                             </select>
                          </div>
                  </div>
-                 <div class=" form-group row " >
-                    <label for="nama" class="col-md-3 col-form-label "> Nama ketua Prodi </label>
-                    <div class="col-md-8" >
-                    <input type="text" class="form-control" require name="nama_ketua_prodi" placeholder="Nama Ketua Prodi" onchange="tampilkan()" >
-                    </div>
-                </div>
                 <div class=" form-group row " >
                     <label for="nama" class="col-md-3 col-form-label "> S1 </label>
                     <div class="col-md-8" >
@@ -125,15 +109,6 @@
                     <label for="nama" class="col-md-3 col-form-label "> S3 </label>
                     <div class="col-md-8" >
                     <input type="text" class="form-control" require name="s3" placeholder="S3" onchange="tampilkan()" >
-                    </div>
-                </div>
-                <div class=" form-group row " >
-                    <label for="nama" class="col-md-3 col-form-label "> Jabatan Fungsional </label>
-                    <div class="col-md-4" >
-                    <input type="text" class="form-control" require name="jbtfungsi" placeholder="Jabatan Fungsional" onchange="tampilkan()" >
-                    </div>
-                    <div class="col-md-4" >
-                    <input type="text" class="form-control" require name="golongan" placeholder="Golongan" onchange="tampilkan()" >
                     </div>
                 </div>
                 <div class=" form-group row " >

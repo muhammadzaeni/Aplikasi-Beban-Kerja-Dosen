@@ -86,7 +86,7 @@
 
             <div class="align-content-around">
                 <button  class=" btn-primary fa fa-plus fa" data-toggle="modal" data-target="#exampleModalLong">
-                Tambah   
+                Add   
                 </button>
                 
          </div>
@@ -112,7 +112,7 @@
                         <td></td>
                         <td>
                          <button type="button" class=" btn-warning fa fa-edit" data-toggle="modal" >
-                         Ubah
+                         Edit
                         </button>             
                     </td>
                 </tr> 
